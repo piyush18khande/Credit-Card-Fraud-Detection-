@@ -1,0 +1,65 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+.coverage
+coverage.xml
+htmlcov/
+.cache
+.pytest_cache/
+
+# Environment
+.env
+.env.*
+venv/
+env/
+.venv/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Misc
+*.bak
+*.tmp
+
+# Local Python virtual environments and build artifacts
+.python-version
+
+# Optional: ignore dataset files (commented out so tracked data isn't removed unexpectedly)
+# Uncomment if you want to ignore CSV/Excel files or a data/ directory
+# *.csv
+# *.xlsx
+# data/
+# data/*.csv
+
+# If you later add patterns and need to stop tracking a file already in the repo:
+# git rm --cached <file>
+# then commit the change
